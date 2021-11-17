@@ -1,0 +1,25 @@
+.feature-section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+  .feature-class {
+    display: flex;
+  }
+  .feature-list {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--primari-text-color);
+  }
+  .feature-list p {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .feature-item {
+    max-width: 270px;
+  }
+  .feature-item:not(:last-child) {
+    margin-right: 30px;
+  }
