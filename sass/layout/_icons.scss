@@ -1,0 +1,57 @@
+.icon {
+    width: 270px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primari-team-color);
+    margin-bottom: 30px;
+  }
+  
+  .icon-1 {
+    width: 65px;
+    height: 70px;
+  }
+  .icon-2 {
+    width: 67px;
+    height: 70px;
+  }
+  .icon-3 {
+    width: 70px;
+    height: 54px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .icon-4 {
+    width: 70px;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .team-icon {
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+  }
+  
+  .team-icon-list {
+    width: 44px;
+    height: 44px;
+    margin-right: 10px;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+  
+  
+  .team-icons {
+    display: flex;
+    margin-top: 16px;
+    justify-content: center;
+  }
