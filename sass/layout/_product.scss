@@ -13,6 +13,7 @@
     letter-spacing: 0.03em;
     color: var(--primari-tittle-color);
   }
+  
   .product-list {
     position: relative;
     margin-right: 30px;
@@ -20,10 +21,6 @@
         margin-right: 0;
       }
   }
-  
-  
-  
-  
   
   .product-text {
     position: absolute;
@@ -74,14 +71,13 @@
   }
   
   .product-item{
-  &:hover {
-    + .submenu {
+  &:hover .submenu {
         display: block;
         color: white;
         transform: translateY(0%);
       }
   }
-}
+
   
   .product-tittle-portfolio {
     font-family: Roboto;

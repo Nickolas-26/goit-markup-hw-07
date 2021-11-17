@@ -56,14 +56,12 @@
     &:focus {
     background-color: var(--primari-accent-color);
   }
-  & .team-icon:hover ,
-  & .team-icon:focus{
-      color: white;
+  &:hover .team-icon,
+  &:focus .team-icon {
+    color: #ffffff;
   }
-  }
+}
   
-//   .team-icon-link:hover .team-icon,
-//   .team-icon-link:focus .team-icon {
-//     color: #ffffff;
-//   }
+  
+  
   

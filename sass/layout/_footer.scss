@@ -1,48 +1,3 @@
-
-
-
-
-
-
-
-
-
-/* logo */
-
-/* site nav */
-
-
-
-/* list */
-
-/*  hero  */
-
-
-
-
-/* button-secondary */
-
-
-
-
-
-/* section */
-
-
-/* feature */
-
-/* CSS Icons */
-
-
-
-/* product */
-
-
-
-/* team */
-
-
-/* footer */
 .footer-section {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -72,13 +27,13 @@
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover ,
+  &:focus{
+    color: var(--primari-accent-color);
+  }
 }
-.link:hover {
-  color: var(--primari-accent-color);
-}
-.link:focus {
-  color: var(--primari-accent-color);
-}
+
+
 .link-footer {
   font-family: Roboto;
   font-style: normal;
@@ -89,17 +44,14 @@
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover ,
+  &:focus {
+    color: var(--primari-accent-color);
+  }
 }
 .link-item:not(:last-child) {
   margin-bottom: 9px;
 }
-.link-footer:hover {
-  color: var(--primari-accent-color);
-}
-.link-footer:focus {
-  color: var(--primari-accent-color);
-}
-
 .footer-icons {
   display: flex;
 }
@@ -124,12 +76,13 @@
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.footer-icon-link:hover,
-.footer-icon-link:focus {
+  &:hover,
+  &:focus {
   border-radius: 50%;
   background-color: #2196f3;
 }
+}
+
 .footer-item {
   margin-bottom: 20px;
   font-family: Roboto;
@@ -145,56 +98,6 @@
 .footer-link{
   padding-right: 93px;
 }
-/* clients */
-
-.clients {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
-.clients-icons {
-  display: flex;
-}
-
-.clients-icon {
-  width: 106px;
-  height: 60px;
-  margin: 16px 32px;
-  fill: currentColor;
-  transition: fill 1000ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.clients-list {
-  width: 170px;
-  height: 92px;
-  display: block;
-  align-items: center;
-  justify-content: center;
-  margin-right: 30px;
-}
-.clients-list:last-child {
-  margin-right: 0;
-}
-.clients-link {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--icon-color);
-  border: 1px solid #afb1b8;
-  border-radius: 4px;
-  transition: fill 1000ms cubic-bezier(0.4, 0, 0.2, 1), border-color 1000ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.clients-link:hover,
-.clients-link:focus {
-  border-color: var(--primari-accent-color);
-}
-.clients-link:hover .clients-icon,
-.clients-link:focus .clients-icon {
-  fill: var(--primari-accent-color);
-}
-  
-
 
 .email-submit{
   display: flex;
@@ -211,6 +114,7 @@ color: white;
 
 }
 
+// .........footer form..............
 .email-item{
   border: 1px solid rgba(255, 255, 255, 0.3);
 width: 358px;
@@ -253,12 +157,3 @@ border-radius: 4px;
   left: 138px;
   fill: white;
 }
-/* overlay */
-
-/* .overlay {
-  max-width: 1600px;
-  max-height: 600px;
-  margin-left: auto;
-  margin-right: auto;
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/overlay/overlay-hero.jpg);
-} */
