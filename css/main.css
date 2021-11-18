@@ -222,7 +222,7 @@ button {
   padding-bottom: 25px;
 }
 
-.header-container {
+.header__container {
   display: flex;
 }
 
@@ -588,6 +588,22 @@ button {
   color: var(--primari-tittle-color);
 }
 
+.social-link {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-link:hover, .social-link:focus {
+  background-color: var(--primari-accent-color);
+}
+
 .container {
   width: 1200px;
   margin-left: auto;
@@ -795,13 +811,13 @@ button {
   fill: currentColor;
 }
 
-.team__icons {
+.social {
   display: flex;
   margin-top: 16px;
   justify-content: center;
 }
 
-.team__social {
+.list__social {
   width: 44px;
   height: 44px;
 }
@@ -811,20 +827,8 @@ button {
 }
 
 .team__link {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   color: var(--icon-color);
   border-radius: 50%;
-  transition-property: background-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.team__link:hover, .team__link:focus {
-  background-color: var(--primari-accent-color);
 }
 
 .team__link:hover .team__icon,
@@ -961,28 +965,19 @@ button {
   display: flex;
 }
 
-.footer-icon {
+.footer__icon {
   width: 20px;
   height: 20px;
+  fill: white;
 }
 
-.footer-icon-link {
-  width: 100%;
-  height: 100%;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-  color: var(--primari-white-color);
+.footer__link {
+  color: white;
   background-color: rgba(255, 255, 255, 0.1);
-  display: flex;
-  transition-property: background-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-icon-link:hover, .footer-icon-link:focus {
+.footer__link:hover, .footer__link:focus {
   border-radius: 50%;
-  background-color: #2196f3;
   fill: white;
 }
 
@@ -1002,7 +997,7 @@ button {
   padding-right: 93px;
 }
 
-.email-submit {
+.form__submit {
   display: flex;
   flex-direction: column;
   margin-bottom: 20px;
@@ -1016,7 +1011,7 @@ button {
   color: white;
 }
 
-.email-item {
+.form__item {
   border: 1px solid rgba(255, 255, 255, 0.3);
   width: 358px;
   height: 50px;
@@ -1028,7 +1023,7 @@ button {
   margin-right: 12px;
 }
 
-.footer-btn {
+.form__btn {
   position: relative;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -1051,7 +1046,7 @@ button {
   line-height: 1.87;
 }
 
-.icon-send {
+.form__send {
   position: absolute;
   display: flex;
   width: 24px;
