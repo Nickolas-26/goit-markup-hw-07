@@ -128,6 +128,11 @@ button {
   margin-top: 4px;
 }
 
+.modal-input:hover + .modal-input-icon,
+.modal-input:focus + .modal-input-icon {
+  fill: #2196F3;
+}
+
 .modal-input-icon {
   position: absolute;
   left: 15px;
@@ -173,6 +178,7 @@ button {
   letter-spacing: 0.03em;
   position: relative;
   margin-bottom: 30px;
+  color: var(--primari-text-color);
 }
 
 .check-text span {
