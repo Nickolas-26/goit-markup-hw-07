@@ -1,8 +1,8 @@
-.product-class {
+.products {
     display: flex;
   }
   
-  .product-tittle {
+  .product__tittle {
     margin-bottom: 50px;
     font-family: Roboto;
     font-style: normal;
@@ -14,22 +14,22 @@
     color: var(--primari-tittle-color);
   }
   
-  .product-list {
+  .products__list {
     position: relative;
-    margin-right: 30px;
-    &:last-child {
-        margin-right: 0;
+  }
+  .products-right{
+  &:not(:last-child) {
+        margin-right: 30px;
       }
   }
-  
-  .product-text {
+  .products__text {
     position: absolute;
     width: 370px;
     height: 70px;
     background-color: rgba(47, 48, 58, 0.8);
     bottom: 0;
   }
-  .product-submenu {
+  .products__submenu {
     position: relative;
     font-weight: 700;
     font-size: 14px;
@@ -40,10 +40,8 @@
     color: white;
     padding: 27px 82px;
   }
-  .submenu-wrapper {
-    position: relative;
-    overflow: hidden;
-  }
+  
+
   /* portfolio */
   .product-section-portfolio {
     display: flex;
@@ -114,6 +112,11 @@
     font-size: 18px;
     line-height: 1.56;
   }
+  .submenu-wrapper {
+    position: relative;
+    overflow: hidden;
+  }
+
   
   .submenu-link {
     position: relative;

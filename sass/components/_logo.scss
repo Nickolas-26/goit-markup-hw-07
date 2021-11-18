@@ -1,21 +1,20 @@
 .logo {
-    color: var(--primari-accent-color);
-    font-family: Raleway, sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-  }
+  color: var(--primari-accent-color);
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
 
-  span.logo-style {
-      
-    color: var(--primari-tittle-color);
-  }
-  span.logo-style-white {
-    color: var(--primari-white-color);
-  }
-  
-  .logo {
-    margin-right: 93px;
-  }
+.logo__style--black {
+  color: var(--primari-tittle-color);
+}
+.logo__style--white {
+  color: white;
+}
+
+.header-logo {
+  margin-right: 93px;
+}

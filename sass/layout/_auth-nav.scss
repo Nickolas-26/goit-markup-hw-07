@@ -10,14 +10,14 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     margin-right: 50px;
   }
-  .mail-icon {
+  .auth-nav__icon {
     width: 16px;
     height: 12px;
     margin-right: 10px;
     fill: currentColor;
   }
   
-  .link-item {
+  .auth-nav__list {
     transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -26,4 +26,19 @@
         color: var(--primari-accent-color);
       }    
   }
-  
+  .auth-nav__link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--primari-text-color);
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover, 
+&:focus {
+  color: var(--primari-accent-color);
+}
+}
+

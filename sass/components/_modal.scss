@@ -44,8 +44,8 @@
     background-color: transparent;
     margin-bottom: 10px;
     margin-top: 4px;
-    &:focus {
-  }
+  //   &:focus {
+  // }
   &:hover + .modal-input-icon,
   &:focus + .modal-input-icon{
     fill:#2196F3;

@@ -80,9 +80,9 @@
   &:focus {
   border-radius: 50%;
   background-color: #2196f3;
+  fill: white;
 }
 }
-
 .footer-item {
   margin-bottom: 20px;
   font-family: Roboto;
@@ -99,6 +99,10 @@
   padding-right: 93px;
 }
 
+
+
+// .........footer form..............
+
 .email-submit{
   display: flex;
   flex-direction: column;
@@ -113,8 +117,6 @@ text-transform: uppercase;
 color: white;
 
 }
-
-// .........footer form..............
 .email-item{
   border: 1px solid rgba(255, 255, 255, 0.3);
 width: 358px;
